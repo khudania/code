@@ -1,0 +1,487 @@
+/* -----------
+1.Body
+2. Navbar
+3. IndexPage
+    3.1 Header
+    3.2 about section
+4. HowitWorks Page
+5. Rules Page
+6. Sponsor
+7. Prizes
+8. FAQS
+9. Footer
+-------------- */
+
+
+
+/*--------------
+ 1.  Body
+ --------------- */
+*{
+    overflow-x: hidden !important;
+}
+h1,h2,h3,h4,h5,p{
+    overflow-y:hidden !important;
+}
+
+
+
+#main{
+    padding-top: 70px;
+    padding-bottom: 60px;
+    
+}
+
+/* End Of Body */
+
+/*-----------
+ 2. Navbar 
+ ------------*/
+nav{
+    background: #000 !important;
+    border-bottom: #f3ba1d 2px solid !important;
+    overflow-x: hidden !important;
+    font-family: 'Source Code Pro', monospace;
+
+    
+    
+}
+
+nav a{
+    color: #6f288b !important;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+    color:#f3ba1d !important;
+}
+
+.navbar-brand{
+    font-family:viner hand ITC;
+    color: #c5c6c7 !important;
+    overflow: hidden;
+}
+
+#cipher{
+    font-family: 'Quantico', sans-serif;
+    color: #32c2b6;
+}
+
+#cipherc{
+    color: #32c2b6;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#ciphero{
+    color: #f3ba1d;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#cipherd{
+    color: #6f288b;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#dash{
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+#capt{
+    color:  #32c2b6;
+}
+#nav{
+    background: #35424a !important;
+}
+
+
+
+
+
+/*--------- 
+End Of Navbar 
+------------*/
+
+/* ----------
+3. Index Page
+------------ */
+
+/* Header */
+header{
+    overflow: hidden !important;
+}
+
+.v-header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #c5c6c7;
+}
+
+.contaainer{
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.fullscreen-video-wrap img{
+    width: 100%;
+    height: 100vh;
+    
+
+}
+
+.header-overlay{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000000;
+    z-index: 1;
+    opacity: 0.9;
+
+}
+
+.header-content{
+    z-index: 2;
+}
+
+.header-content h1{
+    font-size: 60px;
+    font-family:viner hand ITC;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+
+.header-content p{
+    font-size: 1rem;
+    display: block;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+header .fa{
+    color:#c5c6c7;
+}
+
+#sub-head{
+    font-size: 2rem;
+    font-family:  'Quantico', sans-serif;
+    
+}
+.btn-warning{
+    background: orange !important;
+    padding: 10px !important;
+    margin-top: 4px;
+}
+
+.btn{
+    background: #86c232;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media(max-width:450px){
+    .header-content h1{
+        font-size: 23px;
+       
+    }
+    .header-content{
+        padding-top: 50px;
+        margin-top: 50px;
+    }
+}
+
+/* @media(max-width:350px){
+    .header-content{
+        padding-top: 100px;
+        margin-top: 100px;
+    }
+} */
+
+/* End Of Header */
+
+/* about section */
+#about{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    overflow-x: hidden !important;
+    background: #000;
+    color:#fff;
+}
+#about h2{
+    font-family:viner hand ITC;
+    letter-spacing: 1rem;
+    word-spacing: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+  
+    overflow: hidden;
+}
+
+#about p{
+    padding-top: 30px;
+    color: #fff;
+    font-family:  'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.625em;
+   letter-spacing: 3px;
+}
+
+#about p span{
+    font-family:viner hand ITC;
+}
+
+
+#about .showcase-left{
+    letter-spacing: 3px;
+    font-family:  'Orbitron', sans-serif;
+}
+/* end of about section */
+
+
+/* ----------
+End Of Index Page
+------------ */
+
+
+/* ----------------
+4. How it Works
+------------------- */
+
+
+#howitwork h3{
+    font-weight: bold;
+    color: #29487d;
+    font-size: 30px;
+}
+
+#howitwork h2{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#howitwork p{
+    padding-top: 20px;
+    color: #777;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.625em;
+   
+}
+
+
+/* ----------------
+ End of How it Works
+------------------- */
+
+/* --------------
+5. Rules
+----------------- */
+
+#rules h3{
+    font-weight: bold;
+    color: #32c2b6;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+
+#rules ul .showcase-rightp1, #rules ul .showcase-rightp2{
+    padding-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.625em;
+    margin-left: 0;
+    padding-left: 0;
+   
+}
+
+#rules ul li{
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* --------------
+End Of Rules
+----------------- */
+
+/* ---------------
+6. Sponsors
+------------------ */
+#sponsor{
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#sponsor h3{
+    font-weight: bold;
+    color: #32c2b6;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#presented_by img{
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    margin:auto;
+    height:120px;
+   
+
+}
+
+#main_sponsor img{
+    padding: 2px;
+}
+
+
+/* ---------------
+End ofSponsors
+------------------ */
+
+
+/* --------------
+7. Prizes
+----------------- */
+
+#prizes{
+    height: 50vh
+}
+
+#prizes h1{
+    font-weight: bold;
+    color: #f3ba1d;
+    font-size: 30px;
+    text-align: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* ---------------
+8. FAQS
+------------------ */
+#faq{
+    padding-top: 40px;
+}
+
+#faq h3{
+    font-weight: bold;
+    color: #32c2b6;
+    font-size: 30px;
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+
+
+
+#faq_que h3{
+    font-weight: bold;
+    color: #000;
+    font-size: 25px;
+    overflow: hidden;
+    font-family:  'Orbitron', sans-serif;
+}
+
+#faq_que .showcase-rightp1, .showcase-rightp2, .showcase-rightp3, .showcase-rightp4 {
+    font-family: 'Quantico', sans-serif;
+    font-weight: bold;
+    font-size: 18px; 
+
+}
+
+/* ---------------
+End of FAQS
+------------------ */
+
+
+/* ---------
+9. Footer
+------------ */
+
+#footer{
+    padding: 20px;
+    background: #000000;
+    color: #ffffff;
+    text-align: justify;
+    border-top: #f3ba1d 2px Solid;
+    font-family: 'Quantico', sans-serif;
+}
+#footer h3{
+    text-align: center;
+    color: #6f288b;
+
+}
+
+#footer .col-md-4{
+    text-align: center !important;
+}
+
+
+/* Social Media */
+
+.fa{
+    color: #fff;
+}
+
+.fa-facebook:hover{
+    color:#29487d
+}
+.fa-instagram:hover{
+    border-radius: 5px;
+    color: #c5c6c7;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.fa-linkedin:hover{
+    color: #0077B5;
+}
+
+.fa-twitter:hover{
+    color:#1DA1F2;
+}
+
+/* subfooter */
+
+#sub-footer{
+    text-align: center;
+    background: #333;
+    color: #000;
+    padding-top: 10px;
+}
+
+/* ---------
+End Of Footer
+------------ */
